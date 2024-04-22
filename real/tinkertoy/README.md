@@ -1,0 +1,1 @@
+Cylindrical tinkertoy container sitting on top of white foamboard. Top face of container is centered at (0, -0.685, 0.175). Table is at z=-0.1444, making the container 0.3194 tall. The diameter of the cylinder is 0.152.
