@@ -2,10 +2,14 @@
 
 Dataset of measurements from a low-cost single-photon camera used in our CVPR 2024 paper "Towards 3D Vision with Low-Cost Single-Photon Cameras"
 
-[Project Webpage](https://cpsiff.github.io/towards_3d_vision/)
+([Project Webpage](https://cpsiff.github.io/towards_3d_vision/) | [PDF](https://arxiv.org/pdf/2403.17801.pdf))
+
+![teaser image](https://cpsiff.github.io/towards_3d_vision/img/teaser.png)
 
 ## Dataset
 The dataset contains both real and simulated data. Real data contains posed captures from the AMS TMF8820. Simulated data is from our own simulator. Real-world captures were completed by attaching the sensor to a robot arm, which moves around the object while capturing measurements.
+
+Not all real-world captures have ground truth. Those that do contain a .stl file and a .blend file of the ground truth mesh.
 
 ## File Format
 Data is stored in .json files with the following format:
