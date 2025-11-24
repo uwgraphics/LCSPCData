@@ -27,6 +27,10 @@ Data is stored in .json files with the following format:
 ```
 For real data, there are additional fields (e.g. sensor temperature, depth estimates, robot state). These can be ignored.
 
+## Coordinate Frame
+We use an unconventional coordinate frame in which the sensor faces towards the positive z axis. See the image below. <br> <br>
+![coordinate_frame](sensor_frame.jpeg)
+
 ## Troubleshooting
 If you run into trouble, please make an issue on this GitHub repo.
 
